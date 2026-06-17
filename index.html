@@ -23,6 +23,7 @@
             <h2>CEEP CIANORTE </h2>
         </div>
         <nav>
+        
             <a href="http://ceepcianorte.com.br">inicio</a>
             <a href="#">cursos</a>
             <a href="">E-lixo (descarte)</a>
@@ -33,12 +34,53 @@
     <h1> Campanha de descarte de lixo eletronico </h1>
     <p>Ajude o meio ambiente e a nosso colégio. Cadastre o equipamento que voce deseja doar ou descatar!</p>
 </div>
-<div>div.class="container"
+< class="container">
     <h2>Formulario de cadastro de E-lixo</h2>
     <form action="/processar-descartar.php" method="post"></form>
-        <label> for="nome">Seu nome (Aluno/professor/comunidade)</label>
+        <label for="nome"Seu nome (Aluno/professor/comunidade)></label>
         <input type="text" id="nome" name="nome" required>
         <label for="contato">E-mail ou whastsApp</label>
+    
+     <label for="contato">E-mail ou whatsApp</label>
+        <input type="tipo de equipamento">tipo de elemento:</label>
+        <select id="tipo_equipamento" name="tipo_equipamento" required>
+            <option value="">seleciona...</option>
+            <option value="computador">computador / notebook</option>
+            <option value="celular"> celular/tablet</option>
+            <option value="periferico">periferico (teclado, mouse, cabos)</option>
+            <option value="bateria"> pilhas e baterias</option>
+            <option value="outros">outros (especifique abaixo)</option>
+       
+        </select> 
+        < for="estado">estado do equipamento:
+            <select id="estado" name="estado" required>
+            <option value="funcionamento"></option>
+            <option value="estragado">Estragado (descarte/ reciclagem)</option>
+            <option value="parcial">Funcionando parcialmente (pode render peças)</option>
+        </select>
+
+        <label for="descriçao (marca/modelo problema se houver): </label>
+            <textarea id="descriçao" name="descriçao" rows="4"></textarea>
+
+            <button type="submit"> registrar equipamento</button>
+    </label>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
     </form>
 </div>
 </body>
